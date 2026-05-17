@@ -2,7 +2,7 @@
   <img src="banner.png" alt="PIX GG Bot" width="100%">
 </p>
 
-<h1 align="center">🚀 PIX GG Bot</h1>
+<h1 align="center">🚀 Pix GG Payment Automation</h1>
 <p align="center">
   <b>Geração e verificação automática de pagamentos PIX via PIX GG</b><br>
   <i>Com fallback inteligente para chave PIX própria</i>
