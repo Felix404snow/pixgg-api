@@ -4,8 +4,7 @@
 
 <h1 align="center">🚀 Pix GG Payment Automation</h1>
 <p align="center">
-  <b>Geração e verificação automática de pagamentos PIX via PIX GG</b><br>
-  <i>Com fallback inteligente para chave PIX própria</i>
+  <b>Geração e verificação automática de pagamentos PIX via PIX GG</b>
 </p>
 
 <p align="center">
@@ -39,11 +38,6 @@ Você pode configurar de **duas formas**:
 export PIXGG_STREAMER_ID="seu-id-aqui"
 export PIXGG_EMAIL="seu@email.com"
 export PIXGG_PASSWORD="sua-senha"
-
-# Chave PIX de fallback (quando PIX GG estiver fora)
-export FALLBACK_PIX_KEY="seu-email@pix.com"
-export FALLBACK_NAME="Seu Nome"
-export FALLBACK_CIDADE="São Paulo"
 ```
 
 ### 2. Direto no Código
@@ -54,10 +48,7 @@ Edite o objeto `CONFIG` no arquivo `script.js`:
 const CONFIG = {
   streamerId: 'seu-id-aqui',
   email: 'seu@email.com',
-  password: 'sua-senha',
-  fallbackPixKey: 'seu-email@pix.com',
-  fallbackName: 'Seu Nome',
-  fallbackCity: 'São Paulo'
+  password: 'sua-senha'
 };
 ```
 
@@ -104,7 +95,6 @@ pixggbot/
 | 🔐 Login automático | Faz login na PIX GG automaticamente |
 | 💰 Geração de PIX | Cria pagamentos com QR Code em base64 |
 | 🔍 Verificação | Checa status de pagamento pelo token |
-| 🛡️ Fallback | Se PIX GG falhar, gera BR Code com sua chave PIX |
 | ⚙️ Configurável | Email e senha via env ou código |
 
 ---
