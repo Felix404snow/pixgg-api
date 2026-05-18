@@ -19,7 +19,7 @@
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seuusuario/pixggbot.git
+git clone https://github.com/Felix404snow/pixggbot.git
 cd pixggbot
 
 # Instale as dependências
